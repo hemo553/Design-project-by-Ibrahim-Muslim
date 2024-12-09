@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة تعريفية عن المعلم</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- الرأس والتنقل -->
+    <header>
+        <h1>مرحبًا بكم في صفحة الأستاذ أحمد</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">حول</a></li>
+                <li><a href="#skills">المهارات</a></li>
+                <li><a href="#contact">تواصل</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- قسم الترحيب -->
+    <section id="about">
+        <h2>عن المعلم</h2>
+        <p>الأستاذ أحمد لديه خبرة تزيد عن 10 سنوات في تدريس الرياضيات والفيزياء. يقدم دروسًا احترافية بأسلوب مبتكر.</p>
+        <img alt="صورة المعلم" style="width: 400px; " src="https://img.freepik.com/premium-photo/teacher-is-teaching-school-cartoon-illustration-school-concept-generated-ai_911917-971.jpg" >
+    </section>
+
+    <!-- قسم المهارات -->
+    <section id="skills">
+        <h2>المهارات</h2>
+        <div class="skills-container">
+            <div class="card">
+                <h3>التدريس التفاعلي</h3>
+                <p>خبرة في استخدام أحدث الأساليب التعليمية.</p>
+            </div>
+            <div class="card">
+                <h3>الرياضيات المتقدمة</h3>
+                <p>شرح مفاهيم الرياضيات بأسلوب بسيط وسهل.</p>
+            </div>
+            <div class="card">
+                <h3>الفيزياء التطبيقية</h3>
+                <p>ربط النظريات بالتطبيقات العملية.</p>
+            </div>
+            <div class="card">
+                <h3>إدارة الوقت</h3>
+                <p>تنظيم الحصص بشكل فعال لضمان الاستفادة القصوى.</p>
+            </div>
+            <div class="card">
+                <h3>حل المشكلات</h3>
+                <p>تقديم حلول مبتكرة للتحديات الأكاديمية.</p>
+            </div>
+            <div class="card">
+                <h3>التواصل الفعال</h3>
+                <p>مهارات تواصل قوية مع الطلاب وأولياء الأمور.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الاتصال -->
+    <section id="contact">
+        <h2 style="text-align: center;">تواصل معنا</h2>
+        <form>
+            <label for="name" style="text-align: right;">: الاسم</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email" style="text-align: right;">: البريد الالكتروني</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message" style="text-align: right;">: الرسالة</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <!-- التذييل -->
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2024</p>
+    </footer>
+</body>
+</html>
